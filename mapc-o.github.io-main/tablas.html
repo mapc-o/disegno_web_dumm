@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MAPC-O</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pàgina personal de XxFrescoAlescoxX">
+    <meta name="keywords" content="UNAM FESA ICO Computaciòn FRESCO">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <script src="./assets/js/cliente.js"></script>
+    <title>Document</title>
+</head>
+
+<body id="cuerpo">
+    <header>
+        <h1 style="color: green; font-size: 24px; background-color: darkseagreen;">Mi pàgina personal</h1>
+        <!--navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="http://www.aragon.unam.mx">FES ARAGÒN</a></li>
+                <li><a href="https://sites.google.com/aragon.unam.mx/fesaragonico/inicio">ICO</a></li>
+                <li><a href="https://github.com/mapc-o">GITHUB</a></li>
+
+                <li>
+                    <!--li*5-->
+                    <ul>
+                        <li><a href="code.html">code</a></li>
+                        <li><a href="listas.html">listas</a></li>
+                        <li><a href="enlaces.html">enlaces e imàgenes</a></li>
+                        <li><a href="tablas.html">tablas</a></li>
+                        <li><a href="formularios.html">formularios</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <h1>Tablas</h1>
+            <article>
+                <h3>Tablas</h3>
+                <p>Cons los tags <code style="background-color: rgb(185, 185, 185);">&lt;table&gt;</code>, <code style="background-color: rgb(185, 185, 185);">&lt;tr&gt;</code>, <code style="background-color: rgb(185, 185, 185);">&lt;th&gt;</code> y <code style="background-color: rgb(185, 185, 185);">&lt;td&gt;</code> se crean tablas que organizan informaciòn para resumirla.<br>
+                    <ul>
+                        <li><code style="background-color: rgb(185, 185, 185);">&lt;tr&gt;</code>: Permite declara renglones (rows)</li>
+                        <li><code style="background-color: rgb(185, 185, 185);">&lt;th&gt;</code>: Declarar cabeceras de columna</li>
+                        <li><code style="background-color: rgb(185, 185, 185);">&lt;td&gt;</code>: Para declarar los datos de las celdas</li>
+                    </ul>
+
+                </p>
+                <br>
+                <p>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>NOMBRE</th>
+                            <th>EDAD</th>
+                        </tr>
+                        <tr>
+                            
+                            <td>1</td>
+                            <td>Juan</td>
+                            <td>22</td>
+                            
+                        </tr>
+                        <tr>
+                            
+                            <td>2</td>
+                            <td>Diana</td>
+                            <td>19</td>
+                            
+                        </tr>
+                    </table>
+
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Los atributos: border, colspan y rowspan</h3>
+                <p>
+                    <ul>
+                        <li>BORDER: Establece el ancho de borde para la tabla</li>
+                        <li>CAPTION: Establece un titulo arriba d ela cabecera</li>
+                        <li>COLSPAN: Permite que una celda ocupe varias columnas</li>
+                        <li>ROWSPAN: Permite que una celda ocupe varios renglones</li>
+                    </ul>
+
+                    <table border="1">
+                        <caption>Ejemplo de tamaño de borde</caption>
+                        <tr>
+                            <th>ID</th>
+                            <th>NOMBRE</th>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Juan</td>
+                        </tr>
+
+                        <tr>
+                            <td>2</td>
+                            <td>Diana</td>
+                        </tr>
+                    </table>
+                    <br>
+
+
+                    <table border="1">
+                        <tr>
+                            <th>ID</th>
+                            <th colspan="2">NOMBRE</th>
+                        </tr>
+
+
+                        <tr>
+                            <td>1</td>
+                            <td>Juan</td>
+                            <td>Martìnez</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>2</td>
+                            <td>Diana</td>
+                            <td>Pèrez</td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="1">
+                        <tr>
+                            <th>NOMBRE</th>
+                            <th>CORREO</th>
+                            <th>TELÈFONO</th>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">Juan</td>
+                            <td>juan@gmail.com</td>
+                            <td>55-5445-5645</td>
+                        </tr>
+
+                        <tr>
+                            <td>juan2@hotmail.com</td>
+                            <td>554443333222</td>
+                        </tr>
+                    </table>
+                </p>
+            </article>
+
+            <article>
+                <h3>Tìtulo artìculo 2 de la secciòn 2</h3>
+                <p>Pàrrafo del artìculo 2</p>
+            </article>
+
+            <article>
+                <h3>Tìtulo artìculo 2 de la secciòn 2</h3>
+                <p>Pàrrafo del artìculo 2</p>
+            </article>
+
+            <article>
+                <h3>Tìtulo artìculo 2 de la secciòn 2</h3>
+                <p>Pàrrafo del artìculo 2</p>
+            </article>
+        </section>
+
+    </main>
+
+
+    <aside>
+        <h4>Informaciòn adicional</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quis earum, possimus libero quo ea delectus
+            quam deserunt modi autem impedit illum aliquid ipsum nesciunt, ut assumenda quas cumque iusto.</p>
+    </aside>
+
+
+    <footer>
+        <p>Todos los derechos reservados FESARAGON UNAM 2024</p>
+
+    </footer>
+
+
+</body>
+
+</html>
+<!--crear cuenta de docker-->
