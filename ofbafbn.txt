@@ -1,0 +1,11 @@
+IP internet protocol 8.8.8.8 Google
+                    132.248     Fesaragon
+TCP dns
+
+url     protocolo://IP o DNS / directorio o recurso : puerto
+Puerto  valor entero
+
+loopback ip 127.0.0.1  ò localhost direcciòn del equipo
+
+ip             puerto
+http://127.0.0.1:80/index.html
