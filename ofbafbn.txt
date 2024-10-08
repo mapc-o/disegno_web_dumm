@@ -9,3 +9,20 @@ loopback ip 127.0.0.1  ò localhost direcciòn del equipo
 
 ip             puerto
 http://127.0.0.1:80/index.html
+
+--------------
+08/10/2024
+còmputo on-premise
+    servidores y hardware necesario para almacenamiento de datos que estàn dentro de las instalaciones de la empresa
+
+
+    amazon web services aws
+
+TAREA:
+    Hacer una bùsqueda para investigar què es el servicio de SSH, 
+    entregar un resumen de una cuartilla a mano
+    describir en què consiste el servicio de scp
+
+    servicio para hacer sesiones remotas a tu computadora
+
+    docker username mapco257
