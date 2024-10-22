@@ -1,0 +1,20 @@
+body {
+    background-color: silver;
+
+}
+
+p {
+    color:teal;
+}
+
+.texto {
+    color: slateblue;
+
+}
+
+.box {
+    border: 5px solid tomato;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 30px;
+}

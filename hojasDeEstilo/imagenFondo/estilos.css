@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(31, 97, 194);
+    color: rgb(220, 220, 220);
+}
+
+.contenedor {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(77, 77, 77);
+}
+
+.texto-color {
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.fondo-solido {
+    background-color: chartreuse;
+    color: chocolate;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.fondo-imagen {
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/07/minecraft-classic-2404703.jpg?tf=3840x');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 107, 107);
+    font-size: 24px;
+    font-weight: bold;
+}
