@@ -1,0 +1,18 @@
+.boton {
+    padding: 10px;
+    background-color: aqua;
+    color: cadetblue;
+    border-radius: 6px;
+}
+
+.boton::before {
+    content: "-";
+    margin-right: 10px;
+    color: maroon;
+}
+
+.boton::after {
+    content: "->";
+    color: black;
+    margin-left: 2px;
+}

@@ -1,0 +1,25 @@
+input {
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    transition: border-color 1.6s ease;
+}
+
+input:focus {
+    border-color: teal;
+    outline: none;
+}
+
+button {
+    background-color: seagreen;
+    color: #eee;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*discrimina los elementos de clase algo*/
+button:not(.algo) {
+    background-color: hotpink;
+
+}

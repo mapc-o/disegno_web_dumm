@@ -1,0 +1,27 @@
+li {
+    padding: 10px;
+    font-size: 16px;
+    background-color: burlywood;
+}
+
+li:first-child {
+    background-color:cornflowerblue;
+    color: navy;
+
+}
+
+li:first-child:hover {
+    background-color: crimson;
+    color: black;
+}
+
+li:last-child:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+li:nth-child(odd) {
+    background-color:blueviolet;
+    color:darkkhaki;
+
+}

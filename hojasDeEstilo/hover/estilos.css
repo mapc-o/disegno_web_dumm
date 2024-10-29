@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+    color: lime;
+    font-size: 12px;
+    transition: color 1s ease;
+}
+
+a:hover{
+    font-size: 24px;
+    color: tomato;
+
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: background-color .5s ease, transform 0.9s ease;
+
+}
+
+button:hover {
+    background-color:darkgoldenrod;
+    color: gold;
+    transform: scale(1.06);
+}
