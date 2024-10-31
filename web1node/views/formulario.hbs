@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body>
+    <h1>{{titulo}}</h1>
+    <div class="contenedor">
+        
+        <form action="/procesa" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje"></label>
+        <textarea name="mesanje" id="mensaje" placeholder="Escribe tu comentario"></textarea>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="terminos" name="terminos">
+            <label for="terminos">Acepto los terminos y condiciones</label>
+
+
+        </div>
+            <button type="submit">Enviar</button>
+       
+    </div>
+   
+    </form>
+</body>
+</html>
