@@ -1,0 +1,24 @@
+npm --version
+npm install express-generator -g
+pwd
+mkdir web1node
+cd web1node
+ls
+cd holamundo
+cat package.json
+$ npm install	
+$ npm start			ctrl + c + npm start ---> reload
+
+
+
+http://localhost:3000/
+
+--------------------------------------
+formato json
+{ 'id' : 12, 'nombre':'Jose'}
+json.org
+
+index.js*
+formularios.hbs+ 
+stylesheets/style.css*
+resultado.hbs+
