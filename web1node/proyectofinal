@@ -5,3 +5,7 @@ npm install
 npm start
 
 crear carpeta dentro de web1node
+
++index.hbs
++index.js
++layout.hbs
