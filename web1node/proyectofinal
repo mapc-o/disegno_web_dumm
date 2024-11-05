@@ -1,0 +1,7 @@
+cd web1node
+express --view hbs proyectofinal
+cd proyectofinal
+npm install
+npm start
+
+crear carpeta dentro de web1node
