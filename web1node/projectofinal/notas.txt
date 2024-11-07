@@ -1,0 +1,47 @@
+cd web1node
+express --view hbs proyectofinal
+cd proyectofinal
+npm install
+npm start
+
+crear carpeta dentro de web1node
+
++index.hbs
++index.js
++layout.hbs
+
+
+
+
+07/11/2024
+mysql -u root -p
+
+create database librosdb;
+
+create table libros(int id auto_increment primary key, titulo varchar(50), autor varchar(50));
+
+insert into libros(titulo, autor) values('Fundaciòn','Isaac Asimov');
+
+insert into libros(titulo, autor) values('El Principito','El frances');
+
+							//contraseña
+grant all on libros.* to user1@'localhost' identified by 'patito123';
+
+	//aplicar cambios
+flush privileges;
+
+
+CMD
+
+mysql -u user1 -p
+
+
+
+
+gitbash
+
+npm install mysql2
+
+ls node_modules
+
+cat package-json
