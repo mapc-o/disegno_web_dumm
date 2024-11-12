@@ -1,0 +1,11 @@
+npm install express -generator -g
+express --view hbs
+express --view hbs proyecto //crea carpeta
+cd carpeta
+cat package.json
+npm install mysql2
+npm install
+
+
+netstat -ano | findstr :3000 //usar otro puerto
+PORT=3001 npm start
